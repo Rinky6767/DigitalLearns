@@ -12,7 +12,7 @@ function Header() {
         setName("show");
     }
     return (<div id="headwrapper">
-        <h2 id="nameheader" className={name}>DigitalLearns <FcReadingEbook style={{ fontSize: "2.5rem" }} /></h2>
+        <h2 id="nameheader" className={name}>DigitalLearns <FcReadingEbook id="book" /></h2>
         <Anchor onClick={clickHandler}>
             <div id="navs" >
                 <Link href="#couserselwrapper" title="Courses" className='links' />

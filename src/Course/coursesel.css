@@ -18,3 +18,9 @@
     color: rgb(220, 79, 32);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
+
+  @media only screen and (max-width: 600px){
+    .selhead{
+        font-size: 1.5rem;
+      }
+}
