@@ -1,0 +1,18 @@
+/* #newcourseswrapper{
+    border: 2px solid red;
+} */
+.newcontainer{
+    overflow-x: scroll;
+	display:flex;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track-piece{
+    border-style:groove;
+}
+.selhead{
+    color: rgb(220, 79, 32);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }

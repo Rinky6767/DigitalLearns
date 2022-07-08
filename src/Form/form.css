@@ -1,0 +1,78 @@
+#formwrapper{
+    display: inline-block;
+     background-color:antiquewhite;
+     width: 100vw;
+}
+#formcontainer{
+    
+    display: block;
+    margin: auto;
+    font-size: 1.2rem;
+}
+#name{
+    width:20%;
+    border-radius: 10px;
+    height: 35px;
+    text-align: center;
+    margin: 12px;
+    font-size: 1.0rem;
+}
+#email{
+    width:20%;
+    border-radius: 10px;
+    height: 35px;
+    text-align: center;
+    margin: 12px;
+    font-size: 1.0rem;
+}
+#message{
+    width:20%;
+    height: 40px;
+    text-align: center;
+    margin: 12px;
+    font-size: 1.0rem;
+}
+.subtn{
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(220, 79, 32);
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 9px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+label{
+ font-size: 1.5rem;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.selhead{
+    color: rgb(220, 79, 32);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  @media only screen and (max-width: 1000px){
+    #name{
+        width:30%;
+    }
+    #message{
+        width:30%;
+    }
+    #email{
+        width:30%;
+    }
+}
+@media only screen and (max-width: 500px){
+    #name{
+        width:50%;
+    }
+    #message{
+        width:50%;
+    }
+    #email{
+        width:50%;
+    }
+}

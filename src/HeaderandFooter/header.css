@@ -1,0 +1,76 @@
+#headwrapper {
+    display: inline-block;
+    width: 100vw;
+    box-shadow: 1px 1px 15px gainsboro;
+}
+
+#navs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -58px;
+}
+
+#nameheader {
+    font-style: italic;
+    text-align: left;
+    padding-left: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.links {
+    padding: 12px;
+}
+
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(220, 79, 32);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menus {
+    float: right;
+    margin-right: 30px;
+    margin-top: -58px;
+    cursor: pointer;
+    width: 50px;
+    display: none;
+}
+
+#dismenu {
+    box-shadow: 2px 2px 12px gainsboro;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+#nav {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -58px;
+}
+
+@media only screen and (max-width: 1050px) {
+    #menus {
+        display: block;
+    }
+
+    #navs {
+        display: none;
+    }
+
+    #cross {
+        float: right;
+        text-align: right;
+    }
+}

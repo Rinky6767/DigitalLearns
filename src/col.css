@@ -1,0 +1,39 @@
+.collwrapper{
+    display: inline-block;
+     background-color:antiquewhite;
+     width: 100vw;
+}
+.imagesContainer{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+   
+}
+#colhead{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#highco{
+    color: rgb(220, 79, 32);
+}
+@media only screen and (max-width: 1000px){
+    .imagesContainer{
+        gap: 30px;
+    }
+    img{
+        width:50px;
+        height: 50px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .imagesContainer{
+        gap: 10px;
+    }
+    img{
+        width:20px;
+        height:20px;
+    }
+    #colhead{
+        font-size: 1.2rem;
+    }
+}

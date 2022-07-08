@@ -1,0 +1,7 @@
+#itemswrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    margin: 12px;
+}
