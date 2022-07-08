@@ -25,7 +25,7 @@ function Header() {
         <div id="dismenu" className={dply}>
             <Anchor>
                 <div id="nav" className={dply} onClick={clickHandler}>
-                    <FaTimes id="cross" style={{marginLeft: "15px", cursor: "pointer", marginTop:"15px"}} onClick={() => {
+                    <FaTimes id="cross" style={{marginLeft: "25px", cursor: "pointer"}} onClick={() => {
                         setDply("hide");
                         setName("show");
                     }} />
