@@ -217,14 +217,6 @@ function data(){
                 type:"Intermediate Course"
             }
         ],
-        
-        
-        PersonalDevelopment:[],
-        InformationTechnology:[],
-        MathandLogic:[],
-        SocialSciences:[],
-        LanguageLearning:[],
-        PhysicalScienceandEngineering:[],
         popular:[
             {
                 imgurl:"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/04/285ee1edee86aa30189148d2042051/DiscreetOptimisation_logo.png?auto=format%2Ccompress&dpr=1&w=330&h=330&q=25&fit=fill",
