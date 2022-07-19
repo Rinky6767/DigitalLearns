@@ -10,7 +10,7 @@ function Header() {
     let [name, setName] = useState("show");
     let [list, setlist] = useState("show");
     window.addEventListener("scroll", () => {
-        if (dply ===w23 "show") {
+        if (dply === "show") {
             setDply("hide");
             setName("show");
             setlist("show");
