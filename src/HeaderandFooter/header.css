@@ -29,14 +29,7 @@ a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#menus {
-    float: right;
-    margin-right: 30px;
-    margin-top: -34px;
-    cursor: pointer;
-    width: 50px;
-    display: none;
-}
+
 
 #dismenu {
     box-shadow: 2px 2px 12px gainsboro;
@@ -52,12 +45,11 @@ a {
     display: none;
 }
 
-#nav {
-    width: 50%;
+#navlinks {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -58px;
+    align-items: center;
 }
 #book{
      font-size: "2.5rem" ;
@@ -65,9 +57,12 @@ a {
 
 @media only screen and (max-width: 1050px) {
     #menus {
-        display: block;
+        float: right;
+        margin-right: 30px;
+        margin-top: -34px;
+        cursor: pointer;
+        width: 50px;
     }
-
     #navs {
         display: none;
     }
@@ -75,6 +70,9 @@ a {
     #cross {
         float: right;
         text-align: right;
+        margin-right: 23px;
+        font-size: 1.7rem;
+        margin-top: 10px;
     }
 }
 
@@ -84,5 +82,8 @@ a {
     }
     #book{
         font-size: "1.5rem" ;
+    }
+    a{
+        font-size: 1.0rem;
     }
 }
